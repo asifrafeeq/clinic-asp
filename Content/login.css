@@ -1,0 +1,27 @@
+﻿body, html {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f8;
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 16px;
+    color: #5a5a5a;
+}
+
+.cadr {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+    .cadr .login {
+        left: 50%;
+        margin-left: -200px;
+        top: 50%;
+        margin-top: -100px;
+        width: 400px;
+        height: 200px;
+        position: absolute;        
+    }

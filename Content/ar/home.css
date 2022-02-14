@@ -1,0 +1,49 @@
+﻿.logo {
+    background-image: url(/images/logo-ar.gif);
+    margin-right: 10%;
+    background-position: right center;
+}
+
+.picture {
+    background-image: url(/images/pictures/center/ac1.jpg);
+}
+
+.fotter {
+    background-image: url(/images/ar-pattern-home.jpg);
+    background-position: right center;
+}
+
+    .fotter .txLine {
+        font-family: Tahoma;
+        font-size: 16px;
+        color: #939598;
+        width: 50%;
+        text-align: justify;
+    }
+
+
+    .fotter .menu {
+        font-family: Tahoma;
+        font-size: 18px;
+    }
+
+
+
+.headertext {
+    margin-left: 0%;
+    margin-right: 10%;
+    background-position: right center;
+    background-image: url(/images/text/home-text-ar.png);
+}
+
+
+.lanToolbar {
+    font-family: Tahoma;
+    left: 4%;
+}
+
+
+    .lanToolbar a {
+        font-family: Tahoma;
+        font-size: 14px;
+    }

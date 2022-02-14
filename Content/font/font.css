@@ -1,0 +1,12 @@
+﻿
+@font-face {
+    font-family:"Book";
+    src: url('/Content/font/uni-sans-book.eot');
+    src: local('☺'), url('/Content/font/uni-sans-book.woff') format('woff'), url('/Content/font/uni-sans-book.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "BookBold";
+    src: url('/Content/font/Uni-Sans-Bold.eot');
+    src: local('☺'), url('/Content/font/Uni-Sans-Bold.woff') format('woff'), url('/Content/font/Uni-Sans-Bold.ttf') format('truetype');
+}

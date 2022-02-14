@@ -1,0 +1,56 @@
+﻿.toolbar {
+    position: absolute;
+    left: 0px;
+    width: 60px;
+    height: 100%;
+    background-color: #fec00f;
+    z-index: 120;
+}
+
+    .toolbar ul {
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        margin-top: 10px;
+    }
+
+        .toolbar ul li {
+            background-position: center center;
+            width: 60px;
+            height: 60px;
+            background-image: url(/images/vtoolbar.png);
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+
+    .toolbar .social {
+        background-position: 0px -180px;
+    }
+
+    .toolbar .sayhello {
+        background-position: 0px -60px;
+    }
+
+    .toolbar .deal {
+        background-position: 0px -120px;
+    }
+
+    .toolbar .healthy {
+        background-position: 0px -240px;
+    }
+
+    .toolbar .alpha {
+        background-position: 0px -300px;
+    }
+
+    .toolbar .know {
+        background-position: 0px 0px;
+    }
+
+    .toolbar .home {
+        background-position: 0px -360px;
+    }
+
+    .toolbar .active {
+        background-position-x: -60px;
+    }

@@ -1,0 +1,305 @@
+﻿.logo {
+    min-height: 116px;
+    margin-left: 10%;
+    height: 16.6%;
+    width: 20%;
+    background-image: url(/images/logo.gif);
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+
+.picture {
+    position: relative;
+    height: 41.6%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(/images/pictures/center/pc1.jpg);
+    background-position: center top;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+    .picture .circle {
+        bottom: 0px;
+        white-space: nowrap;
+        margin: 0px auto;
+        display: table;
+    }
+
+        .picture .circle ul {
+            margin: 0px auto;
+            padding: 0px;
+            list-style: none;
+            display: table-row;
+        }
+
+            .picture .circle ul li {
+                position: relative;
+                float: left;
+                background-position: center center;
+                width: 25px;
+                height: 25px;
+                background-image: url(/images/circle-slider.png);
+                background-repeat: no-repeat;
+            }
+
+        .picture .circle .active {
+            background-image: url(/images/active-slider.png);
+        }
+
+.fotter {
+    position: relative;
+    height: 41.8%;
+    width: 100%;
+    background-image: url(/images/pattern-home.jpg);
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+    .fotter table {
+        width: 100%;
+        height: 100%;
+    }
+
+    .fotter .txLine {
+        color: #939598;
+        width: 50%;
+        text-align: justify;
+    }
+
+        .fotter .txLine div {
+        }
+
+        .fotter .txLine a {
+            text-decoration: none;
+            color: #e22882;
+        }
+
+
+
+    .fotter .menu {
+        height: 60%;
+        min-height: 60%;
+        width: 80%;
+        margin: auto auto;
+        color: #939598;
+        text-align: center;
+        -moz-transition: 0.5s;
+        -o-transition: 0.5s;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+
+        .fotter .menu a {
+            color: #939598;
+            text-align: center;
+            text-decoration: none;
+            width: 100%;
+        }
+
+        .fotter .menu table {
+            width: 100%;
+            height: 100%;
+            border-collapse: collapse;
+            border: 0px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+            .fotter .menu table td {
+                width: 33%;
+                vertical-align: middle;
+                cursor: pointer;
+            }
+
+        .fotter .menu div {
+            margin: auto auto;
+            width: 100%;
+            height: 70%;
+            background-position: center top;
+            background-repeat: no-repeat;
+            -moz-background-size: contain;
+            -o-background-size: contain;
+            -webkit-background-size: contain;
+            background-size: contain;
+            -moz-transform: scale(1.0);
+            -ms-transform: scale(1.0);
+            -o-transform: scale(1.0);
+            -webkit-transform: scale(1.0);
+            transform: scale(1.0);
+            -moz-transition: 0.4s;
+            -o-transition: 0.4s;
+            -webkit-transition: 0.4s;
+            transition: 0.4s;
+        }
+
+            .fotter .menu div:hover {
+                -moz-transform: scale(1.4);
+                -ms-transform: scale(1.4);
+                -o-transform: scale(1.4);
+                -webkit-transform: scale(1.4);
+                transform: scale(1.4);
+            }
+
+        .fotter .menu tr:nth-child(1) td:nth-child(1) div {
+            background-image: url(/images/menu/knowus.png);
+        }
+
+        .fotter .menu tr:nth-child(1) td:nth-child(2) div {
+            background-image: url(/images/menu/locate.png);
+        }
+
+        .fotter .menu tr:nth-child(1) td:nth-child(3) div {
+            background-image: url(/images/menu/stayhealthy.png);
+        }
+
+        .fotter .menu tr:nth-child(2) td:nth-child(1) div {
+            background-image: url(/images/menu/discover.png);
+        }
+
+        .fotter .menu tr:nth-child(2) td:nth-child(2) div {
+            background-image: url(/images/menu/sayhi.png);
+        }
+
+        .fotter .menu tr:nth-child(2) td:nth-child(3) div {
+            background-image: url(/images/menu/social.png);
+        }
+
+
+.headertext {
+    position: absolute;
+    margin-left: 10%;
+    width: 50%;
+    height: 50%;
+    bottom: 15%;
+    background-position: left center;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 10;
+    background-image: url(/images/text/home-text.png);
+}
+
+
+.lanToolbar {
+    position: absolute;
+    color: #939598;
+    right: 4%;
+    top: 10.00%;
+}
+
+    .lanToolbar a {
+        color: #939598;
+        text-decoration: none;
+        margin-left: 5px;
+    }
+
+    .lanToolbar ul {
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+    }
+
+        .lanToolbar ul li {
+            background-position: center center;
+            float: left;
+            width: 50px;
+            height: 15px;
+            line-height: 15px;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            text-align: center;
+        }
+
+
+            .lanToolbar ul li:nth-child(1) {
+                margin-top: 7px;
+                margin-right: 5px;
+            }
+
+            .lanToolbar ul li:nth-child(2) {
+                margin-top: 7px;
+                border-left-style: solid;
+                border-left-width: 1px;
+                border-left-color: #d1d2d3;
+            }
+
+                .lanToolbar ul li:nth-child(2) a {
+                    font-family: Tahoma;
+                    font-weight: normal;
+                }
+
+
+            .lanToolbar ul li:nth-child(3) {
+                background-image: url(/images/facebook.jpg);
+                width: 28px;
+                height: 25px;
+            }
+
+                .lanToolbar ul li:nth-child(3) a {
+                    width: 28px;
+                    height: 25px;
+                    display: block;
+                }
+
+            .lanToolbar ul li:nth-child(4) {
+                background-image: url(/images/twitter.jpg);
+                width: 28px;
+                height: 25px;
+            }
+
+                .lanToolbar ul li:nth-child(4) a {
+                    width: 28px;
+                    height: 25px;
+                    display: block;
+                }
+
+            .lanToolbar ul li:nth-child(5) {
+                background-image: url(/images/linkin.jpg);
+                width: 28px;
+                height: 25px;
+            }
+
+                .lanToolbar ul li:nth-child(5) a {
+                    width: 28px;
+                    height: 25px;
+                    display: block;
+                }
+
+            .lanToolbar ul li:nth-child(3):hover {
+                background-image: url(/images/overfacebook.jpg);
+            }
+
+            .lanToolbar ul li:nth-child(4):hover {
+                background-image: url(/images/overtwitter.jpg);
+            }
+
+            .lanToolbar ul li:nth-child(5):hover {
+                background-image: url(/images/overlinkin.jpg);
+            }
+
+    .lanToolbar .active {
+        color: #e22882;
+        cursor: default;
+    }
+
+
+@media all and (orientation:portrait) {
+    .fotter .txLine a {
+        text-decoration: none;
+        color: black;
+    }
+}

@@ -1,0 +1,25 @@
+﻿
+.rightApp {
+    right: 0px;
+}
+
+
+.socailLink {
+    left: 10%;
+}
+
+.textHeadr {
+    font-family: 'Book';
+    font-size: 45px;
+}
+
+
+.textline {
+    font-family: 'Book';
+    font-size: 18px;
+}
+
+.rightApp .submenu a {
+    font-family: 'Book';
+    font-size: 16px;
+}

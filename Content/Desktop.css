@@ -1,0 +1,24 @@
+﻿#detect {
+}
+
+    #detect .fotter .menu {
+        font-size: 18px;
+    }
+
+        #detect .fotter .menu a {
+            font-size: 18px;
+        }
+
+
+.fotter .txLine {
+    width: 100%;
+    height: 100%;
+}
+
+    .fotter .txLine div {
+        height: 60%;
+        min-height: 60%;
+        width: 60%;
+        margin: auto auto;
+        overflow: auto;
+    }

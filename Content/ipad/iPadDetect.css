@@ -1,0 +1,40 @@
+﻿#detect {
+}
+
+    #detect .fotter .menu {
+        font-size: 12px;
+    }
+
+        #detect .fotter .menu a {
+            font-size: 12px;
+        }
+
+
+.fotter .txLine {
+    width: 100%;
+}
+
+    .fotter .txLine div {
+        height: 60%;
+        min-height: 60%;
+        margin-left: 20%;
+        width: 80%;
+        overflow: auto;
+        font-size: 14px;
+    }
+
+
+.picture {
+    min-width: 100%;
+}
+
+
+
+
+.rightApp .submenu a {
+    font-size: 12px;
+}
+
+.rightApp .submenu .active {
+       font-size: 12px;
+}

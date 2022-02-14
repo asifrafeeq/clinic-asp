@@ -1,0 +1,197 @@
+﻿.logoPage {
+    background-position: right center;
+    margin-right: 10%;
+    margin-left: 0%;
+    background-image: url(/images/logo-page%20-ar.jpg);
+}
+
+.textHeadr {
+    font-family: Tahoma;
+    font-size: 45px;
+    margin-right: 10%;
+}
+
+.textline {
+    font-family: Tahoma;
+    font-size: 18px;
+    margin-left: 0%;
+    margin-right: 10%;
+    color: #939598;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+
+
+.rightApp {
+    left: 0px;
+}
+
+    .rightApp .icon {
+        background-position: right center;
+    }
+
+    .rightApp .pic {
+        border-radius: 0 0 40px 0;
+    }
+
+    .rightApp .patternPage {
+        background-position: left center;
+        background-image: url(/images/ar-page-p.jpg);
+    }
+
+    .rightApp .bigpic {
+        height: 80%;
+        width: 100%;
+        border-radius: 0 0 0 40px;
+        background-repeat: no-repeat;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-image: url(/images/pictures/p1.jpg);
+    }
+
+    .rightApp .submenu a {
+        margin-right: 0px;
+        margin-left: 10px;  
+        font-size: 16px;
+        font-family: Tahoma;
+    }
+
+.pageLanToolbar {
+    font-family: 'Book';
+    font-size: 14px;
+    margin-left: 0%;
+    margin-right: 10%;
+}
+
+    .pageLanToolbar a {
+        font-family: 'Book';
+        font-size: 14px;
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+
+    .pageLanToolbar ul li {
+        float: left;
+    }
+
+        .pageLanToolbar ul li:nth-child(4) {
+            margin-left: 10px;
+            margin-top: 7px;
+        }
+
+        .pageLanToolbar ul li:nth-child(5) {
+            margin-top: 7px;
+            border-left-style: solid;
+            border-left-width: 1px;
+            border-left-color: #d1d2d3;
+        }
+
+        .pageLanToolbar ul li:nth-child(1) {
+            background-image: url(/images/facebook.jpg);
+            width: 28px;
+            height: 25px;
+        }
+
+        .pageLanToolbar ul li:nth-child(2) {
+            background-image: url(/images/twitter.jpg);
+            width: 28px;
+            height: 25px;
+        }
+
+        .pageLanToolbar ul li:nth-child(3) {
+            background-image: url(/images/linkin.jpg);
+            width: 28px;
+            height: 25px;
+        }
+
+        .pageLanToolbar ul li:nth-child(1):hover {
+            background-image: url(/images/overfacebook.jpg);
+        }
+
+        .pageLanToolbar ul li:nth-child(2):hover {
+            background-image: url(/images/overtwitter.jpg);
+        }
+
+        .pageLanToolbar ul li:nth-child(3):hover {
+            background-image: url(/images/overlinkin.jpg);
+        }
+
+    .pageLanToolbar .active {
+        color: #fec00f;
+        cursor: default;
+        font-family: Tahoma;
+    }
+
+
+.continue {
+    position: absolute;
+    height: 80px;
+    text-align: center;
+    color: #d9d9d9;
+    line-height: 100px;
+    font-size: 20px;
+    font-family: 'Book';
+    width: 100%;
+    z-index: 100;
+    bottom: 0px;
+}
+
+    .continue div {
+        background-position: center top;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 180px;
+        height: 80px;
+        background-image: url(/images/continue.jpg);
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+
+        .continue div:hover {
+            background-image: url(/images/overcontinue.jpg);
+        }
+
+.back {
+    position: absolute;
+    height: 80px;
+    text-align: center;
+    color: #d9d9d9;
+    line-height: 100px;
+    font-size: 20px;
+    font-family: 'Book';
+    width: 100%;
+    z-index: 300;
+    bottom: 0px;
+    display: none;
+}
+
+    .back div {
+        background-position: center top;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4px;
+        text-align: center;
+        width: 180px;
+        height: 80px;
+        background-image: url(/images/back.jpg);
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+
+        .back div:hover {
+            background-image: url(/images/overback.jpg);
+        }
+
+
+
+.socailLink {
+    position: absolute;
+    right: 10%;
+}
+
+    .socailLink ul li {
+        background-position: right top;
+    }

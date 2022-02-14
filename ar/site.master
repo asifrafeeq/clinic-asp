@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+
+<script runat="server">
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link runat="server" rel="stylesheet" href="~/Content/ToolBar.css" />
+    <link runat="server" rel="stylesheet" href="~/Content/rtlToolBar.css" />
+    <link runat="server" rel="stylesheet" href="~/Content/pages.css" />
+    <link runat="server" rel="stylesheet" href="~/Content/rtlpages.css" />
+
+    <script type="text/javascript">
+
+        function SetToolBar(index) {
+            $(".toolbar li").removeClass("active");
+            $(".toolbar li").eq(index).addClass("active");
+        }
+
+        $(".toolbar li").click(function () {
+            currentPage = getPage($(this).index());
+            ChangePage();
+        });
+
+        function setToolBarColor(color) {
+            $(".toolbar").css({ "background-color": color });
+        }
+
+        function setLan(page) {
+            $("#chp").find("a").attr("href", "../en/Default.aspx?pg=" + page);
+        }
+
+    </script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" style="width: 100%; height: 100%">
+        <div class="pageLanToolbar">
+            <ul>
+                <li><a target="_blank" href="https://www.facebook.com/alphaintlpharmacy"></a></li>
+                <li><a target="_blank" href="https://www.twitter.com/alphaintlpharmacy"></a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/alphaintlpharmacy"></a></li>
+                <li id="chp">
+                    <a href="../en/Default.aspx">English
+                    </a>
+                </li>
+                <li class="active">العربية
+                </li>
+            </ul>
+        </div>
+
+        <div class="toolbar">
+            <ul>
+                <li class="home"></li>
+                <li class="know"></li>
+                <li class="alpha"></li>
+                <li class="healthy"></li>
+                <li class="deal"></li>
+                <li class="sayhello"></li>
+                <li class="social"></li>
+            </ul>
+        </div>
+        <div class="logoPage"></div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+
+    </form>
+</body>
+</html>

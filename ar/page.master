@@ -1,0 +1,109 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/ar/site.master" %>
+
+<script runat="server">
+
+</script>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+
+    <script type="text/javascript">
+
+        var subpage = -1;
+
+        function activeMenu(index) {
+            subpage = index;
+            $(".submenu").show();
+            $(".submenu a").removeClass("active");
+            $(".submenu a").eq(index).addClass("active");
+        }
+
+        function SetIcon(icon) {
+            $(".rightApp .icon").css({ "background-image": "url(/images/pictures/ar/" + icon + ".png)" })
+            $(".rightApp .pic").css({ "background-image": "url(/images/pictures/" + icon + ".jpg)" })
+            setLan(icon);
+        }
+
+        function refleshPage() {
+            if (subpage != -1) {
+                $(".submenu").show();
+                $(".submenu a").removeClass("active");
+                $(".submenu a").eq(subpage).addClass("active");
+            }
+
+        }
+
+        function alText() {
+
+            var h = $("body").innerHeight();
+
+            var pos = $(".pageLanToolbar").position();
+            var tpos = $(".textline").position();
+            if (pos.top - tpos.top > 0) {
+                $(".textline").height(pos.top - tpos.top - 30);
+            }
+
+
+        }
+
+        $(window).resize(function () {
+            alText();
+        });
+
+
+        $(document).ready(function () {
+
+            setTimeout(refleshPage, 1000);
+            setTimeout(alText, 1000);
+
+            $(".submenu a").click(function () {
+                var index = $(this).index();
+                var page = "knowus";
+
+                switch (index) {
+                    case 1:
+                        page = "group";
+                        break;
+
+                    case 2:
+                        page = "pharmacy";
+                        break;
+
+                    case 3:
+                        page = "happaning";
+                        break;
+
+                    case 4:
+                        page = "careers";
+                        break;
+                }
+
+                currentPage = page;
+                ChangePage();
+
+            });
+        });
+    </script>
+
+    <asp:ContentPlaceHolder ID="headpage" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+
+    <div class="rightApp">
+        <div class="icon"></div>
+        <div class="pic"></div>
+        <div class="patternPage"></div>
+        <div class="submenu">
+            <a href="#" class="active">ألفا وأسلوب عملها</a>
+            <a href="#">المجموعة</a>
+            <a href="#">الصيدلية</a>
+            <a href="#">فعاليات</a>
+            <a href="# ">الوظائف</a>
+            <span class="stretch"></span>
+        </div>
+    </div>
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderPage" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+

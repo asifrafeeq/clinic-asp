@@ -1,0 +1,34 @@
+﻿.map {
+    margin-right: 10%;
+    width: 90%;
+}
+
+
+.icon {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    left: 0px;
+    top: 20px;
+    background-image: url(/images/pictures/ar/locate.png);
+    background-position: left center;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pattern {
+    left: 0px;
+    top: 0px;
+    width: 40%;
+    position: absolute;
+    background-position: left center;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/images/alocatepattern.png);
+}
